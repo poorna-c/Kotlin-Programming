@@ -48,7 +48,44 @@ fun main(args : Array<String>)
     println(when(num1){0->"Zero" 1->"One" else->"Nothing Matches !!!"})
 
 
+    while(num2==num1)
+    {
+        print("$num2 ")
+        num2++;
+    }
+
+    var x = 1..20
+    println("x is: "+x)
+
+    for(i in x)
+    {
+        print("$i ")
+    }
+
+    println("\nThe Following Output...")
+    for(i in 10..1)
+    {
+        print("$i ")
+    }
     
+
+    for(i in 10 downTo 1)
+    {
+        print("$i ")
+    }
+    println("\ndownTo is a Method of Int Class... 10.downTo(1) <==> 10 downTo 1")
+    for(i in 10.downTo(1))
+    {
+        print("$i ")
+    }
+    println("\nUsing until")
+    // 1..10 gives range from 1 to 10 but if we want that even we specify 10 we need till 9 then we use until
+    for(i in 1 until 10) print("$i ")
+    
+    println("\nAlso Using for characters...")
+    for(i in 'A'..'z') print("$i ")
+
+
 
 
 
