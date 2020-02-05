@@ -45,7 +45,7 @@ fun main(args : Array<String>)
     }
     println(when(num1){0->"Zero" 1->"One" else->"Nothing Matches !!!"})
     // Also Works with semicolons
-    println(when(num1){0->"Zero" 1->"One" else->"Nothing Matches !!!"})
+    println(when(num1){0->"Zero";1->"One";else->"Nothing Matches !!!"})
 
 
     while(num2==num1)
@@ -84,12 +84,5 @@ fun main(args : Array<String>)
     
     println("\nAlso Using for characters...")
     for(i in 'A'..'z') print("$i ")
-
-
-
-
-
-
-
 
 }
